@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabela</title>
+    <link rel="shortcut icon" href="imagens/computer.ico" type="image/x-icon">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        caption{
+            font-size: 1.3em;
+            padding: 10px;
+            font-weight: bolder;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .c-idade{
+            background-color: lightseagreen;
+        }
+
+        .c-nome{
+            background-color: lightslategray;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="c-nome">
+            <col class="c-sexo">
+            <col class="c-idade" span="2">
+            <col class="c-prodissao">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Brandão</td>
+            <td>M</td>
+            <td>23</td>
+            <td>Desenvolvedor</td>
+        </tr>
+        <tr>
+            <td>Glécia</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Professora</td>
+        </tr>
+        <tr>
+            <td>Geissiele</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Administradora</td>
+        </tr>
+        <tr>
+            <td>Vilgner</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Cirurgião Dentista</td>
+        </tr>
+        <tr>
+            <td>Maiara</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Professora</td>
+        </tr>
+        <tr>
+            <td>Elvis</td>
+            <td>M</td>
+            <td>42</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Clécia</td>
+            <td>F</td>
+            <td>29</td>
+            <td>Atendente</td>
+        </tr>
+        <tr>
+            <td>Leonys</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Atendente</td>
+        </tr>
+    </table>
+</body>
+</html>
