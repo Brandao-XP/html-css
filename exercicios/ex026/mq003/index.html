@@ -8,25 +8,28 @@
     <title>Media Query</title>
     <style>
         /* Configurações gerais */
-        *{
-            margin: 0px;
-            padding: 0px;
-            font-family: Arial, Helvetica, sans-serif;
-        }
+         @media all{
+            *{
+                margin: 0px;
+                padding: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
 
-        html, body{
-            width: 100vw;
-            height: 100vh;
-            background-color: #233eff;
-            background-size: contain;
-            background-repeat: no-repeat;
-        }
+            html, body{
+                width: 100vw;
+                height: 100vh;
+                background-color: #233eff;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
 
-        h1{
-            color: white;
-            padding: 10px;
-            text-shadow: 2px 2px 0px #111d7c;
-        }
+            h1{
+                color: white;
+                text-shadow: 2px 2px 0px #111d7c;
+                padding: 10px;
+            }   
+         }   
+            
 
         /* Configurações para dispositivos em pé */
         @media screen and (orientation: portrait) {
