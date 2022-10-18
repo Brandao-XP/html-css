@@ -2,6 +2,7 @@
 
 *{
     font-family: Arial, Helvetica, sans-serif;
+
     margin: 0px;
     padding: 0px;
 }
@@ -16,7 +17,58 @@ header > h1{
     color: white;
 }
 
-ul{
-    margin: 10px;
+menu {
+    display: block;
+}
+
+menu > ul{
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
     padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: lightgrey;
+    color: white;
+    border-top: 2px solid rgba(0, 0, 0, 0.836);
+}
+
+menu > ul > li > a:hover {
+    background-color: rgba(0, 0, 0, 0.836);
+}
+
+main {
+    width: 90vw;
+    background-color: lightgrey;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+iframe#xpto {
+    background-color: #fff;
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 400px;
+}
+
+article > h2 {
+    padding-bottom: 20px;
+}
+
+article > p {
+    text-align: justify;
+    margin-bottom: 10px;
+    text-indent: 20px;
+}
+
+#legenda {
+    font-size: 0.7em;
+    padding: 2px;
+    margin-bottom: 10px;
 }
