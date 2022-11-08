@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/letra-b.ico" type="image/x-icon">
     <title>Mini Portfólio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
     <header>
         <h1>MEUS PROJETOS</h1>
-        <menu>
+        <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()"> menu </i>
+        <menu id="itens">
             <ul>
                 <li><a href="https://brandao-xp.github.io/landing-page-xpto/" target="_blank">Agência XPTO</a></li>
                 <li><a href="https://brandao-xp.github.io/projeto-android/" target="_blank">Android</a></li>
@@ -39,5 +41,14 @@
             <p>No projeto acima foram usados conceitos de HTML, CSS e JavaScript, demasiados simples sendo um projeto de Land Page. Nos demais projetos apresentados no GITHUB, os conceitos não chegam a conter JavaScript, porém, apresentam boas práticas de HTML e CSS.</p>
         </article>
     </main>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display ='block'
+            }
+        }
+    </script>
 </body>
 </html>
